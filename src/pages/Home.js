@@ -1,7 +1,7 @@
 import React from "react";
 import '../app.scss'
-import Navi from "../moduls/Navi";
-import Header from "../moduls/Header";
+import Navi from "../moduls/home/Navi";
+import Header from "../moduls/home/Header";
 
 function Home() {
   return (
@@ -21,7 +21,7 @@ function Home() {
           </div>
         </div>
       <div className="footer">
-          @장민식팀
+          by 장민식팀
         </div>
     </div>
   );

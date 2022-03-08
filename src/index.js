@@ -5,14 +5,14 @@ import { Register, Login, Home } from './pages'
 
 const App = () => {
   return (
-    <div className='App'>
+    <>
       <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/home" element={<Home/>}/>
           <Route path='/Register' element={<Register/>}/>
           <Route path="/login" element={<Login/>}/>
       </Routes>
-    </div>
+    </>
   );
 };
 
