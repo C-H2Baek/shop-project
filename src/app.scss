@@ -8,11 +8,7 @@ body{
     background-image: url("./background-img.jpg");
     background-size: cover;
 }
-img{
-    max-width: 100%;
-    width: auto !important;
-    height: auto;
-}
+
 .App{
     margin-top: 2.5vh;
     display: flex;
@@ -71,9 +67,9 @@ img{
         display: flex;
         flex-direction: column;
         .slide{
-            @include border(null,5px,red);
-            height:10px;
-            width:100%;
+            @include border(null,2px,red);
+            height:100%;
+            width:95%;
             flex: 4;
         }
         .content{

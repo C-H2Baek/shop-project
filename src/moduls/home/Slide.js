@@ -15,7 +15,7 @@ export default class SimpleSlider extends Component {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 8000,
-        centerMode: true,
+        centerMode: false,
         centerPadding: "20px"
       };
       return (
@@ -29,7 +29,7 @@ export default class SimpleSlider extends Component {
               <img src="https://img.kr.news.samsung.com/kr/wp-content/uploads/2016/08/Grace_kor01.jpg"/>
             </div>
             <div>
-              <img src="https://cdn-cms.packative.com/wp-content/uploads/2020/05/04223515/%EC%84%B8%EB%A6%AC%ED%94%84-%ED%8F%B0%ED%8A%B8-600x600.jpeg"/>
+              <img src="https://www.cosinkorea.com/data/photos/20200105/art_15801900113063_b0e3bd.jpg"/>
             </div>
         
           </Slider>
