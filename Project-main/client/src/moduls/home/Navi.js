@@ -1,5 +1,6 @@
 import React from "react";
-import './styles/naviStyle.scss'
+import { Link } from "react-router-dom";
+import '../styles/naviStyle.scss'
 
 
 function NaviList(){
@@ -7,7 +8,9 @@ function NaviList(){
     return(
         <>
             <div className="logo-box">
-                <button className="logo">Arzt</button>
+                <Link className="link" to ="/Home">
+                    <button className="logo">Arzt</button>
+                </Link>
             </div>
 
 
